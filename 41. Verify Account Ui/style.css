@@ -1,0 +1,141 @@
+* {
+ transition: all 0.3s ease-in-out;
+ user-select: none;
+ -webkit-user-select: none;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ overflow: hidden;
+}
+
+.container {
+ width: 700px;
+ height: 500px;
+ border: 3px solid black;
+ border-radius: 10px;
+ flex-direction: column;
+}
+
+p {
+ width: 100%;
+ text-align: center;
+ opacity: 0.5;
+}
+
+.inputs {
+ position: relative;
+ width: 100%;
+ height: 120px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.has_input::before {
+ position: absolute;
+ content: "";
+ left: 200%;
+ height: 100%;
+ opacity: 0;
+
+ width: 0;
+ height: 0;
+ border-top: 60px solid transparent;
+ border-bottom: 60px solid transparent;
+ border-right: 60px solid rgb(235, 235, 235);
+ filter: blur(3px);
+ animation: triangle_in 2s ease-in-out infinite;
+}
+
+@keyframes triangle_in {
+ 80% {
+  opacity: 1;
+ }
+
+ 100% {
+  left: 105%;
+  opacity: 0;
+ }
+}
+
+.has_input::after {
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ content: "←向左滑入清空输入";
+ left: 105%;
+ font-size: 1.5em;
+ color: rgb(124, 124, 124);
+ animation: flash 2s infinite ease-in-out;
+ pointer-events: auto;
+}
+
+@keyframes flash {
+ 0% {
+  opacity: 0;
+ }
+
+ 50% {
+  opacity: 1;
+ }
+
+ 100% {
+  opacity: 0;
+ }
+}
+
+.inputs input {
+ width: calc(100% / 8);
+ height: 100%;
+ margin: 10px;
+ font-size: 5em;
+ text-align: center;
+ border: 2px solid rgb(201, 201, 201);
+ border-radius: 10px;
+ color: rgb(81, 81, 81);
+}
+
+.clear_input::before {
+ position: absolute;
+ content: "";
+ width: 100%;
+ height: 105%;
+ background: rgb(215, 215, 215);
+ border-radius: 10px;
+ left: 200%;
+ animation: clear 1.5s ease-in-out;
+}
+
+@keyframes clear {
+ 50% {
+  left: 0px;
+ }
+
+ 90% {
+  opacity: 1;
+ }
+
+ 100% {
+  left: 0px;
+  opacity: 0;
+ }
+}
+
+small {
+ width: 60%;
+ padding: 10px;
+ text-align: center;
+ background: rgb(213, 213, 213);
+ color: rgb(138, 138, 138);
+ border-radius: 10px;
+}
