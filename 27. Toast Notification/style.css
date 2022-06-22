@@ -1,0 +1,51 @@
+* {
+ transition: all 0.3s ease-in-out;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: #5a4a49;
+ overflow: hidden;
+}
+
+button {
+ padding: 20px;
+ border: none;
+ border-radius: 10px;
+ outline: none;
+ font-size: 1.5em;
+ background: #DF655A;
+ color: white;
+ cursor: pointer;
+}
+
+button:active {
+ transform: scale(0.8);
+}
+
+.notes {
+ position: absolute;
+ align-items: flex-end;
+ right: 20px;
+ bottom: 20px;
+ flex-direction: column;
+}
+
+.note {
+ position: relative;
+ padding: 10px;
+ margin: 5px;
+ background: lightblue;
+ border-radius: 10px;
+}
+
+.hide {
+ transform: translateX(200%);
+}

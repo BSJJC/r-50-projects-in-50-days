@@ -1,0 +1,81 @@
+* {
+ transition: 0.3s ease-in-out;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: #464d6b;
+ overflow: hidden;
+ flex-direction: column;
+}
+
+input {
+ position: absolute;
+ width: 400px;
+ height: 70px;
+ border: none;
+ outline: none;
+ border-radius: 10px;
+ font-size: 2em;
+ text-indent: 10px;
+}
+
+.input_hide {
+ transform: translateY(-200px);
+ opacity: 0;
+}
+
+.user_info {
+ position: absolute;
+ font-size: 2em;
+ color: white;
+ flex-direction: column;
+}
+
+.user_info_hide {
+ opacity: 0;
+ transform: translateY(200px);
+}
+
+.intro {
+ flex-direction: row;
+}
+
+.avatar {
+ width: 100px;
+ height: 100px;
+ border-radius: 100px;
+}
+
+.profile {
+ width: 560px;
+ padding: 20px;
+ justify-content: space-around;
+}
+
+.repos {
+ justify-content: flex-start;
+ font-size: 50%;
+}
+
+.repo {
+ width: 120px;
+ margin: 10px;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ background: #222638b5;
+ border-radius: 10px;
+}
+
+.error {
+ font-size: 2em;
+ color: white;
+}

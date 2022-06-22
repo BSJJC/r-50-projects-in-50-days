@@ -1,0 +1,47 @@
+* {
+ user-select: none;
+ -webkit-user-drag: none;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: rgb(201, 232, 243);
+ overflow: hidden;
+}
+
+.card {
+ flex-direction: column;
+}
+
+h2 c {
+ color: red;
+}
+
+.card img {
+ max-width: 50vw;
+ cursor: pointer;
+ border-radius: 10px;
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.heart {
+ cursor: pointer;
+ position: absolute;
+ font-size: 3em;
+ color: red;
+ animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+ to {
+  transform: scale(5);
+  opacity: 0;
+ }
+}

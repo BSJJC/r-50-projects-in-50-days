@@ -1,0 +1,59 @@
+* {
+ user-select: none;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: lightblue;
+ overflow: hidden;
+}
+
+.container {
+ position: relative;
+ width: 450px;
+ height: 500px;
+ flex-direction: column;
+ overflow: hidden;
+}
+
+.imgs {
+ position: absolute;
+ left: 900px;
+ width: 100%;
+ transition: all 0.3s ease-in-out;
+}
+
+.imgs img {
+ width: 100%;
+}
+
+.controls {
+ position: absolute;
+ bottom: 0px;
+ width: 100%;
+ height: 10%;
+ background: lightseagreen;
+ font-size: 1.5em;
+ color: white;
+}
+
+.controls div {
+ cursor: pointer;
+}
+
+.pre {
+ width: 50%;
+ height: 100%;
+}
+
+.next {
+ width: 50%;
+ height: 100%;
+}

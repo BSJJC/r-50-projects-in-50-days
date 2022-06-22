@@ -1,0 +1,88 @@
+* {
+ transition: all 0.1s ease-in-out;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: linear-gradient(to right, #d4d3dd, #efefbb);
+}
+
+h1 {
+ position: absolute;
+ top: 0px;
+}
+
+.container {
+ position: absolute;
+ top: 100px;
+ width: 80vw;
+ flex-wrap: wrap;
+}
+
+.pokemon-card {
+ width: 170px;
+ height: 300px;
+ border-radius: 10px;
+ box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
+ background: lightcoral;
+ flex-direction: column;
+ margin: 10px;
+}
+
+.poke-profile {
+ width: 70%;
+ height: 40%;
+ border-radius: 100%;
+ margin-bottom: 10%;
+ background-color: rgba(255, 255, 255, 0.5);
+}
+
+.poke-profile img {
+ height: 100%;
+}
+
+.poke-description {
+ width: 90%;
+ height: 40%;
+ flex-direction: column;
+}
+
+.poke-description div {
+ position: relative;
+ width: 100%;
+ height: calc(100% / 3);
+}
+
+.poke-description div::before {
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.poke-description .poke-number::before {
+ content: attr(poke-number);
+ padding: 5px 10px;
+ border-radius: 10px;
+ font-size: 0.8em;
+ background: rgba(0, 0, 0, 0.1);
+}
+
+.poke-description .poke-name::before {
+ content: attr(poke-name);
+ letter-spacing: 1px;
+ font-size: 1.17em;
+ font-weight: bold;
+}
+
+.poke-description .poke-type::before {
+ content: attr(poke-type);
+ font-size: smaller;
+}

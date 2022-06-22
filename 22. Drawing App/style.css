@@ -1,0 +1,82 @@
+* {
+ transition: all 0.2s ease;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+body {
+ min-height: 100vh;
+ overflow: hidden;
+}
+
+.panel {
+ position: relative;
+ border: 3px solid lightblue;
+}
+
+.tools {
+ position: relative;
+ width: 506px;
+ height: 70px;
+ background: lightblue;
+ flex-direction: row;
+ font-size: 25px;
+}
+
+button {
+ width: 50px;
+ height: 50px;
+ background: white;
+ font-size: 25px;
+ border: none;
+ outline: none;
+ border-radius: 10px;
+}
+
+button:hover {
+ cursor: pointer;
+ background: rgb(227, 227, 227);
+}
+
+button:active {
+ transform: scale(0.9);
+}
+
+.left {
+ position: relative;
+ width: 70%;
+ height: 100%;
+ flex-direction: row;
+ justify-content: left;
+ padding-left: 10px;
+}
+
+.size {
+ width: 200px;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.color {
+ position: relative;
+ width: 50px;
+ height: 50px;
+}
+
+.right {
+ position: relative;
+ width: 30%;
+ height: 100%;
+}
+
+.clear {
+ position: relative;
+ width: 100px;
+ height: 50px;
+}

@@ -1,0 +1,30 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: rgb(10, 10, 10);
+ overflow: hidden;
+}
+
+.container {
+ width: 420px;
+ flex-wrap: wrap;
+}
+
+.block {
+ width: 16px;
+ height: 16px;
+ background: rgb(27, 27, 27);
+ box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+ margin: 2px;
+ transition: 2s ease-in-out;
+}
+
+.block:hover {
+ transition-duration: 0s;
+}

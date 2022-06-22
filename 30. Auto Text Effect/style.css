@@ -1,0 +1,41 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: rgb(90, 124, 137);
+ overflow: hidden;
+}
+
+.text {
+ font-size: 2em;
+ color: white;
+}
+
+.control {
+ position: absolute;
+ bottom: 70px;
+ font-size: 2em;
+ color: white;
+}
+
+.control input {
+ width: 60px;
+ height: 40px;
+ border: none;
+ outline: none;
+ font-size: 1em;
+ background: transparent;
+ color: white;
+}
+
+.control::before {
+ position: relative;
+ transform: translateY(-50px) translateX(-10px);
+ content: "SPEED: ";
+ top: 50px;
+}

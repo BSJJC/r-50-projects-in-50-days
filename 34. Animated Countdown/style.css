@@ -1,0 +1,88 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: lightblue;
+ overflow: hidden;
+}
+
+.container {
+ position: absolute;
+ width: 200px;
+ height: 100px;
+ overflow: hidden;
+}
+
+.container span {
+ position: absolute;
+ bottom: 0px;
+ color: black;
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+.container .num {
+ position: absolute;
+ top: 0px;
+ font-size: 4em;
+ color: white;
+ transform: rotateZ(180deg);
+ transform-origin: bottom;
+}
+
+.rotate {
+ animation: num-rotate 1s ease-in-out forwards;
+}
+
+@keyframes num-rotate {
+ 30% {
+  transform: rotateZ(-20deg);
+ }
+
+ 50% {
+  transform: rotateZ(15deg);
+ }
+
+ 70% {
+  transform: rotateZ(0deg);
+ }
+
+ 80% {
+  transform: rotateZ(30deg);
+ }
+
+ 100% {
+  transform: rotateZ(-180deg);
+ }
+}
+
+.final {
+ position: absolute;
+ width: 200px;
+ height: 100px;
+ flex-direction: column;
+ opacity: 0.5;
+ color: white;
+ font-size: 2em;
+}
+
+.final * {
+ margin: 5px;
+}
+
+.hide {
+ transform: scale(0);
+ opacity: 0;
+ transition: all 0.1s;
+}
+
+.show {
+ transform: scale(1);
+ opacity: 1;
+ transition: all 0.1s;
+}

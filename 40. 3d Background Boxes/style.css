@@ -1,0 +1,85 @@
+* {
+ transition: all 1s ease-in-out;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: linear-gradient(to right, rgb(215, 255, 140), rgb(161, 253, 161));
+ overflow: hidden;
+}
+
+.container {
+ position: relative;
+ top: 10px;
+ width: 500px;
+ height: 500px;
+ flex-wrap: wrap;
+}
+
+.block {
+ position: relative;
+ background: url(./img/bg.png) no-repeat;
+}
+
+.block::before {
+ position: absolute;
+ top: 7.5%;
+ right: -15%;
+ content: "";
+ width: 15%;
+ height: 100%;
+ transform: skewY(45deg);
+ background: rgb(151, 226, 228);
+}
+
+.block::after {
+ position: absolute;
+ left: 8%;
+ bottom: -15%;
+ content: "";
+ width: 100%;
+ height: 15%;
+ transform: skewX(45deg);
+ background: rgb(207, 244, 137);
+}
+
+.rotate {
+ position: relative;
+ width: 600px;
+ height: 600px;
+}
+
+.rotate .block {
+ transform: rotate(360deg);
+ margin: 10px;
+}
+
+button {
+ z-index: 100;
+ position: absolute;
+ top: 20px;
+ padding: 10px;
+ border-radius: 10px;
+ background: lightgreen;
+ color: white;
+ font-size: 2em;
+ border: none;
+ outline: none;
+ cursor: pointer;
+}
+
+input {
+ position: absolute;
+ width: 100px;
+ top: 80px;
+ border: none;
+ outline: none;
+ font-size: 1.5em;
+}
