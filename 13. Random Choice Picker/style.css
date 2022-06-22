@@ -1,0 +1,56 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: #2b88f0;
+ overflow: hidden;
+}
+
+.container {
+ position: relative;
+ width: 40vw;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+h1,
+h2 {
+ color: white;
+}
+
+textarea {
+ position: relative;
+ width: 90%;
+ height: 40px;
+ max-width: 90%;
+ font-size: 20px;
+ font-weight: bold;
+ text-indent: 10px;
+ outline: none;
+}
+
+.choices {
+ position: relative;
+ width: 90%;
+ max-width: 90%;
+ justify-content: left;
+ flex-wrap: wrap;
+ margin-top: 20px;
+}
+
+.choices .choice {
+ position: relative;
+ background: #f0932b;
+ padding: 10px;
+ margin: 5px;
+ border-radius: 20px;
+}
+
+.active {
+ background: #273c75 !important;
+}

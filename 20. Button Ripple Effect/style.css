@@ -1,0 +1,46 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: black;
+ overflow: hidden;
+}
+
+.btn {
+ position: relative;
+ width: 150px;
+ height: 50px;
+ background: rgb(185, 4, 185);
+ font-size: 20px;
+ color: white;
+ cursor: pointer;
+ border-radius: 10px;
+ transition: all 0.3s ease;
+ overflow: hidden;
+ user-select: none;
+}
+
+.btn:active {
+ transform: scale(0.95);
+}
+
+.circle {
+ position: absolute;
+ width: 10px;
+ height: 10px;
+ border-radius: 50px;
+ background: rgba(255, 255, 255, 0.685);
+ animation: test 0.5s ease-in-out;
+}
+
+@keyframes test {
+ to {
+  transform: scale(100);
+  opacity: 0;
+ }
+}

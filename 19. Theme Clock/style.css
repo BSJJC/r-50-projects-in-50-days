@@ -1,0 +1,148 @@
+* {
+ transition: all 0.5s ease;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ flex-direction: column;
+ overflow: hidden;
+}
+
+.bg {
+ position: absolute;
+ width: 100vw;
+ height: 110vh;
+ background: white;
+ z-index: 0;
+}
+
+.change {
+ z-index: 10;
+ cursor: pointer;
+ width: 100px;
+ height: 30px;
+ border-radius: 5px;
+ background: black;
+ color: white;
+ font-size: 15px;
+ border: none;
+ outline: none;
+}
+
+.dark {
+ background: black;
+}
+
+.dark .change {
+ background: white;
+ color: black;
+}
+
+.dark .minute_hand,
+.dark .hour_hand {
+ background: white;
+}
+
+.dark .time {
+ color: white;
+}
+
+.dark .date>span {
+ background: white;
+ color: black;
+}
+
+.clock {
+ position: relative;
+ width: 300px;
+ height: 300px;
+}
+
+.hand {
+ position: absolute;
+ height: 2px;
+ border-radius: 10px;
+ transform-origin: right;
+ transform: rotate(90deg);
+}
+
+.dot {
+ position: absolute;
+ width: 8px;
+ height: 8px;
+ background: red;
+ border-radius: 10px;
+ z-index: 15;
+}
+
+.dot::before {
+ position: absolute;
+ content: "";
+ width: 50%;
+ height: 50%;
+ background: black;
+ border-radius: 50%;
+}
+
+.second_hand {
+ width: 100px;
+ background: red;
+ left: 50px;
+ z-index: 10;
+}
+
+.minute_hand {
+ width: 100px;
+ height: 3px;
+ background: black;
+ left: 50px;
+ z-index: 5;
+}
+
+.hour_hand {
+ width: 50px;
+ height: 4px;
+ background: black;
+ left: 100px;
+ z-index: 1;
+}
+
+.num {
+ position: relative;
+ width: 400px;
+ height: 100px;
+ flex-direction: column;
+}
+
+.time {
+ position: relative;
+ width: 100%;
+ height: 60%;
+ font-size: 50px;
+}
+
+.date {
+ position: relative;
+ width: 100%;
+ height: 40%;
+ color: rgb(184, 184, 184);
+}
+
+.date>span {
+ position: relative;
+ width: 25px;
+ height: 25px;
+ line-height: 25px;
+ text-align: center;
+ margin-left: 10px;
+ background: black;
+ color: white;
+ border-radius: 20px;
+}

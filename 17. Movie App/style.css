@@ -1,0 +1,129 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: #22254b;
+ margin: 0px;
+ flex-direction: column;
+ overflow-x: hidden;
+}
+
+.top_bar {
+ position: relative;
+ width: 100vw;
+ height: 80px;
+ background: #373b69;
+}
+
+.top_bar input {
+ position: absolute;
+ bottom: 10px;
+ right: 7%;
+ width: 200px;
+ height: 30px;
+ outline: none;
+ text-indent: 15px;
+ font-size: 20px;
+ border-radius: 90px;
+ border: 2px solid #22254b;
+ background: transparent;
+ color: white;
+}
+
+.top_bar input:focus {
+ background: #22254b;
+}
+
+.container {
+ position: relative;
+ flex-wrap: wrap;
+ width: 100vw;
+ height: 100vh;
+}
+
+.block {
+ position: relative;
+ width: 300px;
+ height: 600px;
+ overflow: hidden;
+ margin: 20px;
+}
+
+img {
+ position: absolute;
+ top: 0px;
+ width: 100%;
+ height: 450px;
+}
+
+.title {
+ position: absolute;
+ bottom: 0px;
+ width: 100%;
+ height: 150px;
+ background: #373b69;
+}
+
+.title .name {
+ position: relative;
+ width: 60%;
+ height: 100%;
+}
+
+.title .name span {
+ position: absolute;
+ top: 20px;
+ left: 0px;
+ font-size: 25px;
+ font-weight: bold;
+ color: white;
+}
+
+.title .vote {
+ position: relative;
+ width: 20%;
+ height: 100%;
+}
+
+.title .vote span {
+ position: absolute;
+ text-align: center;
+ line-height: 30px;
+ width: 40px;
+ height: 30px;
+ top: 20px;
+ right: 0px;
+ font-size: 17px;
+ font-weight: bold;
+ color: orange;
+ background: #22254b;
+}
+
+.info {
+ position: absolute;
+ bottom: 0px;
+ width: 100%;
+ background: white;
+ flex-direction: column;
+ transition: all .3s ease;
+ transform: translateY(101%);
+}
+
+.info h2 {
+ width: 80%;
+ margin-bottom: 0px;
+}
+
+.info .des {
+ width: 80%;
+ font-size: 18px;
+}
+
+.block:hover .info {
+ transform: translateY(0%);
+}

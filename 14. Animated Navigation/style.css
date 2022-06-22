@@ -1,0 +1,86 @@
+* {
+ transition: all 1s ease;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ background: linear-gradient(white 0%, white 50%, #5290f9 50%, #5290f9 100%);
+ overflow: hidden;
+}
+
+nav {
+ position: relative;
+ padding: 20px;
+ height: 50px;
+ width: 50px;
+ background: white;
+ box-shadow: 1px 1px 5px 1px rgb(121, 124, 128);
+ overflow: hidden;
+}
+
+ul {
+ position: absolute;
+ width: 300px;
+ padding: 0;
+ float: left;
+ transform: translateX(-110%);
+}
+
+li {
+ display: inline-block;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+a {
+ color: black;
+ text-decoration: none;
+}
+
+.btn {
+ position: absolute;
+ right: 20px;
+ width: 50px;
+ height: 50px;
+ cursor: pointer;
+}
+
+.line1 {
+ position: absolute;
+ top: 35%;
+ width: 60%;
+ height: 2px;
+ background: #5290f9;
+}
+
+.line2 {
+ position: absolute;
+ bottom: 35%;
+ width: 60%;
+ height: 2px;
+ background: #5290f9;
+}
+
+.active {
+ width: 350px;
+}
+
+.active ul {
+ transform: translateX(0px);
+}
+
+
+.one_rotate {
+ transform: rotate(405deg) translateY(5px) translateX(5px);
+}
+
+.two_rotate {
+ transform: rotate(-405deg) translateY(-4px) translateX(4px);
+}
