@@ -1,0 +1,60 @@
+* {
+ transition: all 0.3s ease-in-out;
+}
+
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body {
+ min-height: 100vh;
+ overflow: hidden;
+ margin: 0px;
+}
+
+.container {
+ position: relative;
+ width: 800px;
+ height: 500px;
+ border-radius: 10px;
+ padding: 50px 50px 0px;
+ background: #476ce4;
+ overflow: hidden;
+}
+
+img {
+ position: absolute;
+ width: 90%;
+ border-radius: 10px;
+}
+
+.progress-bar {
+ position: absolute;
+ left: 50px;
+ top: 20px;
+ width: 0px;
+ height: 5px;
+ background: white;
+ border-radius: 10px;
+}
+
+.active {
+ animation: progress-bar-increase 5s infinite ease-in-out;
+}
+
+@keyframes progress-bar-increase {
+ to {
+  width: 800px;
+ }
+}
+
+.show {
+ opacity: 1;
+}
+
+.hide {
+ opacity: 0;
+}
