@@ -1,0 +1,124 @@
+:root {
+ --reimu: #cb4b67;
+ --light_reimu: #cb4b6794;
+ --morisa: #bc9862;
+ --light_morisa: #bc98629d;
+}
+
+* {
+ z-index: 2;
+ user-select: none;
+ -webkit-user-drag: none;
+ transition: all 0.5s ease-in-out;
+ overflow: hidden;
+}
+
+body,
+div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+}
+
+body {
+ min-height: 100vh;
+ margin: 0px;
+ padding: 0px;
+}
+
+.container {
+ position: absolute;
+ width: 100vw;
+ height: 100vh;
+ background: rgba(173, 216, 230, 0.219);
+}
+
+.left,
+.right {
+ position: relative;
+ width: 50vw;
+ height: 100vh;
+}
+
+.left {
+ background: var(--reimu);
+}
+
+.right {
+ background: var(--morisa);
+}
+
+.block {
+ flex-direction: column-reverse;
+ font-size: 60px;
+ font-weight: bold;
+ color: white;
+}
+
+.block span {
+ margin-bottom: 10px;
+}
+
+.block button {
+ width: 300px;
+ height: 100px;
+ font-size: 30px;
+ background: transparent;
+ border-radius: 10px;
+ cursor: pointer;
+ color: white;
+ border: 5px solid white;
+}
+
+img {
+ position: absolute;
+ z-index: 1;
+ height: auto;
+ width: 50vw;
+ opacity: 0.5;
+}
+
+.hover_left .left {
+ width: 70vw;
+}
+
+.hover_left .left img {
+ opacity: 1;
+ transform: scale(0.8);
+}
+
+.hover_left .left button:hover {
+ border: 5px solid var(--reimu);
+ background: var(--light_reimu);
+}
+
+.hover_left .left button:hover+span {
+ color: var(--reimu);
+}
+
+.hover_left .right {
+ width: 30vw;
+}
+
+.hover_right .right {
+ width: 70vw;
+}
+
+.hover_right .right img {
+ opacity: 1;
+ transform: scale(0.8);
+}
+
+.hover_right .right button:hover {
+ border: 5px solid var(--morisa);
+ background: var(--light_morisa);
+}
+
+.hover_right .right button:hover+span {
+ color: var(--morisa);
+}
+
+.hover_right .left {
+ width: 30vw;
+}

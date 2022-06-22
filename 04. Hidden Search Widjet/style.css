@@ -1,0 +1,46 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+}
+
+body {
+ background: darkgray;
+ min-height: 100vh;
+}
+
+.button_area {
+ position: relative;
+ width: 50px;
+ height: 50px;
+ cursor: pointer;
+ background: white;
+ border-radius: 5px;
+ margin-left: 3px;
+ transition: all 0.3s ease-in-out
+}
+
+img {
+ width: 60%;
+}
+
+.search_bar {
+ position: relative;
+ width: 0px;
+ height: 50px;
+ background: white;
+ border-radius: 5px;
+ border: none;
+ outline: none;
+ font-size: 25px;
+ text-indent: 10px;
+ opacity: 0;
+ transition: all 0.3s ease-in-out
+}
+
+.show {
+ opacity: 1;
+ width: 200px;
+}

@@ -1,0 +1,32 @@
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ min-height: 100vh;
+ background: lightgray;
+}
+
+.num {
+ position: absolute;
+ font-size: 60px;
+ font-weight: bold;
+ color: white;
+ z-index: 10;
+}
+
+img {
+ height: 100vh;
+ opacity: 1;
+ filter: blur(10px);
+ transition: filter 1.5s ease-in-out;
+}
+
+.clear {
+ filter: blur(0px);
+}

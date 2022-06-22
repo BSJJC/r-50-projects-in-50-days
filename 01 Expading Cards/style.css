@@ -1,0 +1,54 @@
+* {
+ transition: all 0.7s ease-in;
+}
+
+body {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+}
+
+.outter_container {
+ display: flex;
+ width: 80vw;
+}
+
+.container {
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 80vh;
+ border-radius: 50px;
+ cursor: pointer;
+ flex: 0.5;
+ color: #fff;
+ margin: 10px;
+ position: relative;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container h2 {
+ position: absolute;
+ bottom: 0;
+ left: 5%;
+ color: white;
+ opacity: 0;
+ z-index: 1;
+}
+
+.container.active {
+ flex: 5;
+}
+
+.container.active h2 {
+ opacity: 1;
+}
+
+.container img {
+ height: 100%;
+}

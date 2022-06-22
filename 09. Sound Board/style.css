@@ -1,0 +1,28 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+}
+
+body {
+ min-height: 100vh;
+ background: lightblue;
+}
+
+button {
+ width: 100px;
+ height: 40px;
+ border: none;
+ border-radius: 10px;
+ color: white;
+ background: lightcoral;
+ transition: all 0.1s ease-in-out;
+ cursor: pointer;
+ margin: 20px;
+}
+
+button:active {
+ transform: scale(0.98);
+}

@@ -1,0 +1,96 @@
+div,
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+body {
+ min-height: 100vh;
+ background: lightblue;
+ overflow: hidden;
+}
+
+.template {
+ position: relative;
+ width: 300px;
+ height: 400px;
+ background: rgb(95, 155, 175);
+}
+
+.form {
+ position: relative;
+ width: 100%;
+ height: 80%;
+}
+
+.form_item {
+ position: relative;
+ width: 100%;
+ height: 80px;
+ margin-top: 10px;
+ flex-direction: row;
+}
+
+h1 {
+ color: white;
+}
+
+.form_item label {
+ position: absolute;
+ display: inline-block;
+ left: 10%;
+ font-size: 20px;
+ color: white;
+}
+
+.form_item label span {
+ display: inline-block;
+ transition: all 0.1s ease-in-out;
+}
+
+.form_item input {
+ position: relative;
+ width: 80%;
+ height: 30px;
+ font-size: 20px;
+ color: white;
+ background: transparent;
+ border: none;
+ outline: none;
+ z-index: 2;
+ border-bottom: 3px solid white;
+}
+
+.form_item input:focus+label span,
+.form_item input:not([value=""])+label span {
+ transform: translateY(-30px);
+ color: lightblue;
+}
+
+.button input {
+ height: 40px;
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+ background: rgb(52, 81, 90);
+ transition: all 0.1s ease-in-out;
+}
+
+.button input:focus {
+ transform: scale(0.98);
+}
+
+.hint {
+ position: relative;
+ bottom: 10px;
+ width: 80%;
+ color: white;
+}
+
+.hint a {
+ display: inline-block;
+ text-decoration: none;
+ color: lightblue;
+}
