@@ -1,0 +1,222 @@
+{
+ "arisu": [
+  "./imgs/arisu01.png",
+  "./imgs/arisu02.png",
+  "./imgs/arisu03.png",
+  "./imgs/arisu04.png",
+  "./imgs/arisu05.png",
+  "./imgs/arisu06.png",
+  "./imgs/arisu07.png",
+  "./imgs/arisu08.png",
+  "./imgs/arisu09.png"
+ ],
+ "chiruno": [
+  "./imgs/chiruno01.png",
+  "./imgs/chiruno02.png",
+  "./imgs/chiruno03.png",
+  "./imgs/chiruno04.png",
+  "./imgs/chiruno05.png",
+  "./imgs/chiruno06.png",
+  "./imgs/chiruno07.png",
+  "./imgs/chiruno08.png",
+  "./imgs/chiruno09.png"
+ ],
+ "furan": [
+  "./imgs/furan01.png",
+  "./imgs/furan02.png",
+  "./imgs/furan03.png",
+  "./imgs/furan04.png",
+  "./imgs/furan05.png",
+  "./imgs/furan06.png",
+  "./imgs/furan07.png",
+  "./imgs/furan08.png",
+  "./imgs/furan09.png"
+ ],
+ "jyunko": [
+  "./imgs/jyunko01.png",
+  "./imgs/jyunko02.png",
+  "./imgs/jyunko03.png",
+  "./imgs/jyunko04.png",
+  "./imgs/jyunko05.png",
+  "./imgs/jyunko06.png",
+  "./imgs/jyunko07.png",
+  "./imgs/jyunko08.png",
+  "./imgs/jyunko09.png"
+ ],
+ "koakuma": [
+  "./imgs/koakuma01.png",
+  "./imgs/koakuma02.png",
+  "./imgs/koakuma03.png",
+  "./imgs/koakuma04.png",
+  "./imgs/koakuma05.png",
+  "./imgs/koakuma06.png",
+  "./imgs/koakuma07.png",
+  "./imgs/koakuma08.png",
+  "./imgs/koakuma09.png"
+ ],
+ "koishi": [
+  "./imgs/koishi01.png",
+  "./imgs/koishi02.png",
+  "./imgs/koishi03.png",
+  "./imgs/koishi04.png",
+  "./imgs/koishi05.png",
+  "./imgs/koishi06.png",
+  "./imgs/koishi07.png",
+  "./imgs/koishi08.png",
+  "./imgs/koishi09.png"
+ ],
+ "marisa": [
+  "./imgs/marisa01.png",
+  "./imgs/marisa02.png",
+  "./imgs/marisa03.png",
+  "./imgs/marisa04.png",
+  "./imgs/marisa05.png",
+  "./imgs/marisa06.png",
+  "./imgs/marisa07.png",
+  "./imgs/marisa08.png",
+  "./imgs/marisa09.png"
+ ],
+ "nazu-rin": [
+  "./imgs/nazu-rin01.png",
+  "./imgs/nazu-rin02.png",
+  "./imgs/nazu-rin03.png",
+  "./imgs/nazu-rin04.png",
+  "./imgs/nazu-rin05.png",
+  "./imgs/nazu-rin06.png",
+  "./imgs/nazu-rin07.png",
+  "./imgs/nazu-rin08.png",
+  "./imgs/nazu-rin09.png"
+ ],
+ "nitori": [
+  "./imgs/nitori01.png",
+  "./imgs/nitori02.png",
+  "./imgs/nitori03.png",
+  "./imgs/nitori04.png",
+  "./imgs/nitori05.png",
+  "./imgs/nitori06.png",
+  "./imgs/nitori07.png",
+  "./imgs/nitori08.png",
+  "./imgs/nitori09.png"
+ ],
+ "pachuri-": [
+  "./imgs/pachuri-01.png",
+  "./imgs/pachuri-02.png",
+  "./imgs/pachuri-03.png",
+  "./imgs/pachuri-04.png",
+  "./imgs/pachuri-05.png",
+  "./imgs/pachuri-06.png",
+  "./imgs/pachuri-07.png",
+  "./imgs/pachuri-08.png",
+  "./imgs/pachuri-09.png"
+ ],
+ "reimu": [
+  "./imgs/reimu01.png",
+  "./imgs/reimu02.png",
+  "./imgs/reimu03.png",
+  "./imgs/reimu04.png",
+  "./imgs/reimu05.png",
+  "./imgs/reimu06.png",
+  "./imgs/reimu07.png",
+  "./imgs/reimu08.png",
+  "./imgs/reimu09.png"
+ ],
+ "remiria": [
+  "./imgs/remiria01.png",
+  "./imgs/remiria02.png",
+  "./imgs/remiria03.png",
+  "./imgs/remiria04.png",
+  "./imgs/remiria05.png",
+  "./imgs/remiria06.png",
+  "./imgs/remiria07.png",
+  "./imgs/remiria08.png",
+  "./imgs/remiria09.png"
+ ],
+ "runachairudo": [
+  "./imgs/runachairudo01.png",
+  "./imgs/runachairudo02.png",
+  "./imgs/runachairudo03.png",
+  "./imgs/runachairudo04.png",
+  "./imgs/runachairudo05.png",
+  "./imgs/runachairudo06.png",
+  "./imgs/runachairudo07.png",
+  "./imgs/runachairudo08.png",
+  "./imgs/runachairudo09.png"
+ ],
+ "sagume": [
+  "./imgs/sagume01.png",
+  "./imgs/sagume02.png",
+  "./imgs/sagume03.png",
+  "./imgs/sagume04.png",
+  "./imgs/sagume05.png",
+  "./imgs/sagume06.png",
+  "./imgs/sagume07.png",
+  "./imgs/sagume08.png",
+  "./imgs/sagume09.png"
+ ],
+ "sakuya": [
+  "./imgs/sakuya01.png",
+  "./imgs/sakuya02.png",
+  "./imgs/sakuya03.png",
+  "./imgs/sakuya04.png",
+  "./imgs/sakuya05.png",
+  "./imgs/sakuya06.png",
+  "./imgs/sakuya07.png",
+  "./imgs/sakuya08.png",
+  "./imgs/sakuya09.png"
+ ],
+ "sanae": [
+  "./imgs/sanae01.png",
+  "./imgs/sanae02.png",
+  "./imgs/sanae03.png",
+  "./imgs/sanae04.png",
+  "./imgs/sanae05.png",
+  "./imgs/sanae06.png",
+  "./imgs/sanae07.png",
+  "./imgs/sanae08.png",
+  "./imgs/sanae09.png"
+ ],
+ "satori": [
+  "./imgs/satori01.png",
+  "./imgs/satori02.png",
+  "./imgs/satori03.png",
+  "./imgs/satori04.png",
+  "./imgs/satori05.png",
+  "./imgs/satori06.png",
+  "./imgs/satori07.png",
+  "./imgs/satori08.png",
+  "./imgs/satori09.png"
+ ],
+ "shamemaru": [
+  "./imgs/shamemaru01.png",
+  "./imgs/shamemaru02.png",
+  "./imgs/shamemaru03.png",
+  "./imgs/shamemaru04.png",
+  "./imgs/shamemaru05.png",
+  "./imgs/shamemaru06.png",
+  "./imgs/shamemaru07.png",
+  "./imgs/shamemaru08.png",
+  "./imgs/shamemaru09.png"
+ ],
+ "youmu": [
+  "./imgs/youmu01.png",
+  "./imgs/youmu02.png",
+  "./imgs/youmu03.png",
+  "./imgs/youmu04.png",
+  "./imgs/youmu05.png",
+  "./imgs/youmu06.png",
+  "./imgs/youmu07.png",
+  "./imgs/youmu08.png",
+  "./imgs/youmu09.png"
+ ],
+ "yuyuko": [
+  "./imgs/yuyuko01.png",
+  "./imgs/yuyuko02.png",
+  "./imgs/yuyuko03.png",
+  "./imgs/yuyuko04.png",
+  "./imgs/yuyuko05.png",
+  "./imgs/yuyuko06.png",
+  "./imgs/yuyuko07.png",
+  "./imgs/yuyuko08.png",
+  "./imgs/yuyuko09.png"
+ ]
+}
