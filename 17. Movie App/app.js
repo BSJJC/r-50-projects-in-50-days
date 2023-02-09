@@ -1,5 +1,5 @@
 const API_URL =
- `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=380252036c0c9514576ad6b6cd12feb1&page=${Math.ceil(Math.random() * 99 + 1)}`;
+ `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=noKeysNow&page=${Math.ceil(Math.random() * 99 + 1)}`;
 const IMG_PATH = 'https://image.tmdb.org/t/p/w300';
 const SEARCH_API =
  'https://api.themoviedb.org/3/search/movie?api_key=380252036c0c9514576ad6b6cd12feb1&query=';
